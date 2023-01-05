@@ -20,11 +20,7 @@ import "../assets/css/css.css"
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import PageHeader from "components/PageHeader/PageHeader.js";
-import Footer from "components/Footer/Footer.js";
-
-// sections for this page/view
-
-import Pagination from "views/IndexSections/Pagination.js";
+import Footer from "components/Footer/Footer.js"; 
 import Typography from "views/IndexSections/Typography.js";
 import { Container, Row, Col } from "reactstrap";
 export default function Index() {
@@ -71,7 +67,7 @@ export default function Index() {
                                                 Dövme ve Piercing Dükkanı<br />
                                                 ▪️İstanbul/Sultanbeyli<br />
                                                 ▫️Sadece Randevu  <br />
-                                                -> Randevu<br />
+                                                -- Randevu<br />
                                                 Tel: 0216 496 34 04<br />
                                                 Gsm: 0546 969 34 04<br />
 
@@ -85,7 +81,7 @@ export default function Index() {
                     </Container>
                     <Typography />
                     <div className="google">
-                        <iframe className="item" src="//maps.google.com/maps?output=embed&amp;q=Abdurrahmangazi%2C%20Osman%20Bedrettin%20Sk.%20No%3A4%20D%3Aaire7%2C%2034000%20Sultanbeyli%2F%C4%B0stanbul&amp;z=15&amp;t=m" data-map="JTdCJTIycG9zaXRpb25UeXBlJTIyJTNBJTIybWFwLWFkZHJlc3MlMjIlMkMlMjJhZGRyZXNzJTIyJTNBJTIyQWJkdXJyYWhtYW5nYXppJTJDJTIwT3NtYW4lMjBCZWRyZXR0aW4lMjBTay4lMjBObyUzQTQlMjBEJTNBYWlyZTclMkMlMjAzNDAwMCUyMFN1bHRhbmJleWxpJTJGJUM0JUIwc3RhbmJ1bCUyMiUyQyUyMnpvb20lMjIlM0ExNSUyQyUyMnR5cGVJZCUyMiUzQSUyMnJvYWQlMjIlMkMlMjJsYW5nJTIyJTNBbnVsbCUyQyUyMmFwaUtleSUyMiUzQW51bGwlMkMlMjJtYXJrZXJzJTIyJTNBJTVCJTVEJTdE"></iframe>
+                        <iframe className="item" title="location map" src="//maps.google.com/maps?output=embed&amp;q=Abdurrahmangazi%2C%20Osman%20Bedrettin%20Sk.%20No%3A4%20D%3Aaire7%2C%2034000%20Sultanbeyli%2F%C4%B0stanbul&amp;z=15&amp;t=m" data-map="JTdCJTIycG9zaXRpb25UeXBlJTIyJTNBJTIybWFwLWFkZHJlc3MlMjIlMkMlMjJhZGRyZXNzJTIyJTNBJTIyQWJkdXJyYWhtYW5nYXppJTJDJTIwT3NtYW4lMjBCZWRyZXR0aW4lMjBTay4lMjBObyUzQTQlMjBEJTNBYWlyZTclMkMlMjAzNDAwMCUyMFN1bHRhbmJleWxpJTJGJUM0JUIwc3RhbmJ1bCUyMiUyQyUyMnpvb20lMjIlM0ExNSUyQyUyMnR5cGVJZCUyMiUzQSUyMnJvYWQlMjIlMkMlMjJsYW5nJTIyJTNBbnVsbCUyQyUyMmFwaUtleSUyMiUzQW51bGwlMkMlMjJtYXJrZXJzJTIyJTNBJTVCJTVEJTdE"></iframe>
                     </div> 
                 </div>
                 <Footer />
